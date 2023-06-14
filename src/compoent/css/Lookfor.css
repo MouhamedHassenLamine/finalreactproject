@@ -1,0 +1,92 @@
+.tableofsearch{
+    z-index: 1;
+    position: fixed;
+    top: 0em;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../public/img/mapbg.jpg);
+    background-position: 0% 20%;
+    background-size: cover;
+    animation: showmean 1s;
+}
+.location{
+    position: absolute;
+    cursor: pointer;
+    width: 6em;
+    height: 6em;
+    background-size: cover;
+    border-radius: 200px;
+    background-position: center;
+}
+.lookiingbutton{
+    z-index: 2;
+    position: fixed;
+    background-image: url(../../../public/img/mappin.png);
+    background-color: transparent;
+    width: 2.9em;
+    height: 3.86em;
+    background-size: 100%;
+    background-position: center;
+    cursor: pointer;
+    border: none;
+}
+.lookiingbutton:focus{
+    outline: none;
+}
+.lokkingparent{
+    position: relative;
+    width: 0em;
+    height: 0em;
+    z-index: 3;
+}
+.to_contact{
+    background-image: url(../../../public/img/tocontact.jpg);
+    background-size: 130%;
+    margin: 27em 18.5%;
+    border: none;
+}
+.to_spacestation{
+    background-image: url(../../../public/img/tospacestation.jpg);
+    background-size: cover;
+    margin: 36em 68%;
+    border: none;
+}
+.GameZone{
+    background-image: url(/public/img/togamezone.png);
+    border: none;
+    background-size: 110%;
+    margin: 25em 35%;
+}
+.homeloc{
+    background-image: url(/public/img/home.png);
+    border: none;
+    margin: 20em 48%;
+    width: 7em;
+    height: 7em;
+    background-color: transparent;
+}
+.aboutloc{
+    background-image: url(/public/img/about.png);
+    border: none;
+    margin: 8em 40%;
+    background-color: transparent;
+}
+@keyframes showmean{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes hideran{
+    from{
+        visibility: visible;
+        opacity: 1;
+    }
+    to{
+        visibility: hidden;
+        opacity: 0;
+    }
+}

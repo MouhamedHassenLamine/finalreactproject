@@ -1,0 +1,13 @@
+
+.ship{
+  z-index: 2;
+    width: 5em;
+    height: 7em;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transition: 1s;
+  }

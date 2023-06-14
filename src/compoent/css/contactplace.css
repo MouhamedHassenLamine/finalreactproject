@@ -1,0 +1,73 @@
+.contactpparent{
+    z-index: 0;
+    transition: 1s;
+    position: fixed;
+    top: 0%;
+    width:100%;
+    height: 100%;
+    text-align: center;
+}
+.contactptittle{
+    color: white;
+    font-size: 400%;
+    letter-spacing: 0.4em;
+    margin-right: 2em;
+}
+.contappsimg img{
+    width: 5em;
+}
+.contappsimg img{
+    margin: 30em 1em;
+}
+.spacetcont{
+    position: relative;
+    width: 28em;
+    bottom: 65em;
+    right: 35em;
+}
+.contp{
+    margin-left: 1.5em;
+    width: 20em;
+    font-size: 120%;
+    color: white;
+}
+.commentform{
+    display: flex;
+    overflow: hidden;
+    height: 18em;
+}
+.commentform div{
+    display: flex;
+    flex-direction: column;
+}
+.commentform input{
+  font-family: Verdana;
+  background-color: azure;
+  border-top-left-radius: 15px;
+  height: 4em;
+  border: none;
+  width: 30em;
+}
+.commentform button{
+    font-family: Verdana;
+    background-color: azure;
+    margin-left: 1.5px;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-weight: bold;
+}
+.comment{
+    margin-top: 1px;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 15px;
+    height: 18em !important;
+}
+.formparent{
+    position: absolute;
+    top: 10em;
+    left: 60%;
+}
+input:focus{
+    outline:none ;
+}

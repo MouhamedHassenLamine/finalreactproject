@@ -1,0 +1,87 @@
+.gameplanet{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    left: 57.6em;
+    top: 20em;
+}
+.gameplanet::before{
+    content: '';
+    position: absolute;
+    width: 200em;
+    height: 100em;
+}
+.gameplanet div{
+    position: relative;
+    background-position: center;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.neptun{
+    width: 8em;
+    height: 8em;
+    margin-top: 2em;
+    background-image: url(/public/img/game/neptune.png);
+    background-size: 162%;
+}
+.saturn{
+    width: 13em;
+    height: 13em;
+    background-image: url(/public/img/game/saturn.png);
+    background-size: 96%;
+}
+.green{
+    width: 13em;
+    height: 13em;
+    background-image: url(/public/img/game/green.png);
+    background-size: 96%;
+}
+.marss{
+    animation: shakplanetan 1.3s;
+    margin-left: 1.5em;
+    width: 13em;
+    height: 13em;
+    background-image: url(/public/img/game/mars.png);
+    background-size: 100%;
+}
+.memoryscore{
+    z-index: 1;
+    border: solid 5px rgb(61, 61, 61);
+    border-radius: 100px;
+    text-align: center;
+    width: 10em;
+    height: 10em;
+    transition: 1s;
+}
+.memoryscore h1{
+    padding: 10px 0px;
+    margin-top: 4px;
+    color: black;
+}
+.startmemory{
+    margin-top: 0px !important;
+}
+.gameplanet button{
+    position: relative;
+}
+.memorygamecover{
+    z-index: 1;
+    cursor:default !important;
+    width: 200em;
+    height: 100em;
+    position: relative;
+    border-radius: 0px !important;
+    right: 2em;
+    bottom:12em;
+}
+  @keyframes shakplanetan {
+    0%   { transform: scale(1,1)      translateY(0); }
+    10%  { transform: scale(1.1,.9)   translateY(0); }
+    30%  { transform: scale(.9,1.1)   translateY(-100px); }
+    50%  { transform: scale(1.05,.95) translateY(0); }
+    57%  { transform: scale(1,1)      translateY(-7px); }
+    64%  { transform: scale(1,1)      translateY(0); }
+    100% { transform: scale(1,1)      translateY(0); }
+}

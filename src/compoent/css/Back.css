@@ -1,0 +1,29 @@
+.backtospace button{
+    background-image: url(/public/img/back.png);
+    background-size: cover;
+    width: 3em;
+    height: 3em;
+    border: none;
+    position: fixed;
+    z-index: 0;
+    background-color: transparent;
+}
+.trans_tringle1{
+    transition: 1s;
+    clip-path: polygon(0% 0, 75% 0, 100% 100%, 0 100%);
+    background-image: url(/public/img/starstransiton.jpg);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 4;
+}
+.trans_tringle2{
+    transition: 1s;
+    background-image: url(/public/img/starstransiton.jpg);
+    transform: rotate(180deg);
+    clip-path: polygon(0% 0, 75% 0, 100% 100%, 0 100%);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 4;
+}

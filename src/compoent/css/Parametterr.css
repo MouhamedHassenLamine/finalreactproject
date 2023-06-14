@@ -1,0 +1,87 @@
+.parametterrimg{
+    z-index: 1;
+    right: 0em;
+    top: 0em;
+    position: fixed;
+    filter: invert(50%);
+    cursor: pointer;
+    transition: 1s;
+    z-index: 3;
+}
+.parsc{
+  display: flex;
+  align-items: center;
+}
+.parametterform{
+    background-color: grey;
+    padding: 1em;
+    border-radius: 10px;
+    width: 30em;
+    z-index: 3;
+    transition: 1s;
+    position: absolute;
+    left: 50%;
+    translate: -50% 50%;
+}
+.parametterform div{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0em;
+}
+.parametterform h3{
+    font-weight: 400;
+    color: white;
+}
+.parametterform section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: center;
+    width: 7em;
+    height: 6em;
+}
+.parametterform section div{
+    margin: 0em 0em;
+}
+.parametterform input[type="checkbox"]{
+  width: 1em;
+  height: 2.5em;
+}
+  .parametterform input[type="range"] {
+    -webkit-appearance: none;
+    margin-top: 10px;
+    appearance: none; 
+    height: 15px;
+    width: 70%;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 16px;
+    background-color: transparent;
+  }
+  
+  .parametterform input[type="range"]::-webkit-slider-runnable-track {
+    height: 15px;
+    background: #ccc;
+    border-radius: 16px;
+  }
+  
+  .parametterform input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none; 
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 2px solid #0d6efd;
+    box-shadow: -407px 0 0 400px #0d6efd;
+  }
+  .param_def_but{
+    height: 3em;
+  }
+  @media (hover: none) {    
+    .parametterrimg{
+          left: 3em;
+      }
+  }

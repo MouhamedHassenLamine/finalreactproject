@@ -1,0 +1,89 @@
+.spacestationimg{
+    position: relative;
+    width: 40em;
+    top: 5em;
+}
+.astronad{
+    width: 3em;
+    position: absolute;
+    top: 20em;
+    left: 45%;
+    cursor: pointer;
+}
+.spparent{
+    z-index: 2;
+    position: relative;
+    text-align: center;
+    transition: 1s;
+}
+.shipparamette{
+    position: relative;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.shipparamette button{
+    cursor:pointer;
+    margin: 0 2em;
+    width: 5em;
+    height: 5em;
+    background-size: cover;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(43, 43, 95);
+    border-radius: 100px;
+}
+.spacestationparent{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+.spacestationparent input{
+ margin-top: 5em;
+ width: 20em;
+}
+.spacestationparent h3{
+    margin-bottom:  -2em;
+    margin-top: 5em;
+    margin-right: 8.5em;
+    color: white;
+}
+.spacestationparent h4{
+    margin-bottom:  -7.2em;
+    margin-left: 12em;
+    color: white;
+}
+.speech-bubble {
+    transition: 1s;
+	position: relative;
+    padding: 0px 5px;
+    bottom: 10em;
+    right: 5em;
+	background: #ffffff;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 38px solid transparent;
+	border-top-color: #ffffff;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: -19px;
+	margin-bottom: -20px;
+}
+.spacestationparent h1{
+    position: absolute;
+    color: white;
+    right: 71%;
+    text-align: center;
+}

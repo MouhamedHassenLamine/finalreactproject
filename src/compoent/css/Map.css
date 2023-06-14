@@ -1,0 +1,28 @@
+.space{
+    background-image: url(../../../public/img/stars.jpg);
+    width: 3000em;
+    height: 3000em;
+    position: relative;
+    transition:1s;
+  }
+  .spaceparent{
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+  }
+  .mars{
+    cursor: pointer;
+    width: 10em;
+    height: 10em;
+    background-size: cover;
+    position: absolute;
+    transition: 1s;
+    border-radius: 200px;
+    background-position: center;
+  }
+  .mars:hover{
+    box-shadow: 1px 1px 100px white;
+    scale: 1.05;
+  }
+  

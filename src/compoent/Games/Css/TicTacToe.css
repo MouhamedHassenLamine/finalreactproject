@@ -1,0 +1,85 @@
+.tictacparent{
+    z-index: 2;
+    position: absolute;
+    left: 1em;
+    text-align: center;
+}
+.board{
+    position: relative;
+    top: 10em;
+    left: 1%;
+    width: 21em;
+    height: 21em;
+}
+.board::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-image: url(/public/img/game/board.png);
+    background-size: 110%;
+    background-position: center;
+    filter: invert(100%) ;
+  }
+.tictac{
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    margin: 8px;
+    width: 6em;
+    height: 6em;
+    background-color: transparent;
+    border: none;
+}
+.tictac div::selection{
+    background-color: transparent;
+}
+.tictac h1::selection{
+    background-color: transparent;
+}
+.tictac h1{
+    animation: showwinlinean 1s;
+    position: relative;
+    font-family: Lucida Sans;
+    color: white;
+    font-size: 500%;
+    margin-top: -37px;
+    top: 25px;
+}
+.winline{
+    display: none;
+    width: 21em;
+    scale: 1.05;
+    bottom: 10px;
+    height: 10px;
+    border-radius: 100px;
+    background-color: white;
+    position: relative;
+    animation: showwinlinean 1s;
+}
+.TicTacControlle{
+    position: absolute;
+    top: 32em;
+    left: 2.5em;
+}
+.TicTacControlle button{
+    position: relative;
+    margin: 0em 2em;
+}
+.covertictac{
+    width: 21em;
+    height: 21em;
+    position: absolute;
+    top: 10em;
+    left: 2px;
+}
+@keyframes  showwinlinean{
+    from{
+        opacity: 0;
+        scale:0;
+    }
+    to{
+        opacity: 1.05;
+        scale:1;
+    }
+}

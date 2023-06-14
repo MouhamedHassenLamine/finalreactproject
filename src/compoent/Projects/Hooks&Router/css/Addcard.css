@@ -1,0 +1,81 @@
+.add{
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.727);
+    margin: 15px;
+    width: 15em;
+    height: 22em;
+    box-shadow: 1px 1px 15px rgb(116, 116, 116);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.add:hover{
+    box-shadow: 1px 1px 25px rgb(116, 116, 116);
+}
+.addbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin: 0 auto;
+    width: 3.5em;
+    height: 3.5em;
+    border: none;
+    background-color: rgb(80, 80, 80);
+    opacity: 0.6;
+}
+.addbutton:hover{
+    opacity: 1;
+}
+.addbutton div{
+    color: white;
+    margin-bottom: 8px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+h4{
+ color: white;   
+ margin-top: 10px !important;
+}
+.inputparent{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.386);
+}
+.exit{
+    border: none;
+    font-size: 150%;
+    font-weight: bolder;
+    color: white;
+    background-color: transparent;
+    width: 100%;
+    margin-left: 48%;
+}
+.formstyle{
+    width: 30em;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: gray;
+    margin: 0 auto;
+    margin-top: 5em;
+}
+@keyframes btan{
+    0%{
+        font-size: 150%;
+    }
+    25%{
+        font-size: 160%;
+        transform: rotate(5deg);
+    }
+    50%{
+        font-size: 160%;
+        transform: rotate(-5deg);
+    }
+    100%{
+        font-size: 150%;
+        transform: rotate(0deg);
+    }
+}

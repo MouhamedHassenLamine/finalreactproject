@@ -1,0 +1,6 @@
+.pimg{
+    position: relative;
+    bottom: 2em;
+    width: 30%;
+    clip-path: circle();
+}

@@ -1,0 +1,40 @@
+  const RandomStuffList=[
+    {
+        image:'/img/decore/decastro1.png',
+        width:'50',
+        top:-600,
+        left:4,
+    },
+    {
+        image:'/img/decore/decastro2.png',
+        width:'50',
+        top:-300,
+        left:-50,
+    },
+    {
+        image:'/img/decore/decastro9.png',
+        width:'60',
+        top:-850,
+        left:-200,
+    },
+    {
+        image:'/img/decore/decastro4.png',
+        width:'50',
+        top:-162,
+        left:-150,
+    },
+    {
+        image:'/img/decore/decastro5.png',
+        width:'50',
+        top:678,
+        left:-53,
+    },
+    {
+        image:'/img/decore/decastro6.png',
+        width:'50',
+        top:850,
+        left:-350,
+    },
+    
+]
+export default RandomStuffList

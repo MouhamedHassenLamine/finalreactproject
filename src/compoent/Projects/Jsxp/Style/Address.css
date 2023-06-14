@@ -1,0 +1,21 @@
+h6{
+    margin-top: 3em;
+    font-size: 110%;
+    color: gray;
+    font-weight: lighter;
+}
+.lorem{
+    margin: 5em auto;
+    font-size: 80%;
+    color: gray;
+}
+hr{
+    width: 80%;
+    margin: 0 auto;
+}
+.a{
+    text-decoration: none;
+    color: rgb(38, 38, 226) !important;
+    position: relative;
+    bottom: 2em;
+}

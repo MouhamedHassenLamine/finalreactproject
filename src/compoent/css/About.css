@@ -1,0 +1,28 @@
+.aboutgrandparent{
+    position: absolute;
+    transition: 1s;  
+}
+.aboutparent{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 90em;
+}
+.aboutparent img{
+    width: 50em;
+}
+.aboutparent h1{
+    position: relative;
+    letter-spacing: 0.6em;
+    font-size: 340%;
+    text-align: center;
+    margin-top: 2.5em;
+    color: white;
+}
+.aboutparent p{
+    font-weight: 100;
+    text-align: center;
+    margin-top: 4em;
+    color: white;
+    font-size: 130%;
+    
+}
